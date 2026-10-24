@@ -21,7 +21,7 @@ jobs:
         env:
           STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
           STRAVA_CLIENT_SECRET: ${{ secrets.STRAVA_CLIENT_SECRET }}
-          STRAVA_REFRESH_TOKEN: ${{ secrets.STRAVA_REFRESH_TOKEN }}
+          STRAVA_REFRESH_TOKEN: ${{ secrets.780cfc4911b4113ff001c3405d1cd3057b9b19ed }}
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
